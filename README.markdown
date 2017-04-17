@@ -1,0 +1,54 @@
+A [Giter8][g8] template for Scala.js projects, created by following the [official Scala.js documentation][scalajs-tutorial].
+
+The project is using only a single dependency (other than Scala.js): scala-js-dom. You can easily remove it if you want.
+
+Usage
+-----
+If you have [SBT][sbt] version 0.13.13 or later, you can simply run:
+
+```
+sbt new tues/scala-js.g8
+```
+
+It will ask you a few questions (project name, Scala version etc.) and create a new directory named after the project.
+
+After generating the project, you may want to edit the following files:
+
+ - `src/main/scala/MainApp.scala`: contains a simple "hello world"
+ - `index.html`: a minimal HTML page which loads the generated JavaScript automatically
+ - `index-dev.html`: same as `index.html`, but using `-fastopt.js` version of your code
+ - `build.sbt`: SBT build file, contains things such as library dependencies
+
+The easiest way to build your project is:
+
+```
+sbt fastOptJS
+```
+
+You can then open `index-dev.html` in your browser.
+
+If you want SBT to automatically rebuild the project every time you change some files, run:
+
+```
+sbt '~fastOptJS'
+```
+
+Building with full optimization for production can be done with:
+
+```
+sbt fullOptJS
+```
+
+Please consult [Scala.js documentation][scalajs-tutorial] for details.
+
+Template license
+----------------
+Written in 2017 by Paweł Bartkiewicz
+
+To the extent possible under law, the author(s) have dedicated all copyright and related
+and neighboring rights to this template to the public domain worldwide.
+This template is distributed without any warranty. See <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+[g8]: https://github.com/foundweekends/giter8
+[sbt]: http://www.scala-sbt.org/
+[scalajs-tutorial]: https://www.scala-js.org/tutorial/basic/
