@@ -24,7 +24,7 @@ The easiest way to build your project is:
 sbt fastOptJS
 ```
 
-You can then open `target/scala-2.11/classes/index-dev.html` (generated from your `index.html`) in your browser.
+You can then open `target/scala-2.12/classes/index-dev.html` (generated from your `index.html`) in your browser.
 
 If you want SBT to automatically rebuild the project every time you change some files, run:
 
