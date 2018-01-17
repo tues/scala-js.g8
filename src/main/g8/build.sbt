@@ -9,7 +9,8 @@ lazy val root = project
     )),
     name := "$name$",
     libraryDependencies ++= Seq(
-      "org.scala-js" %%% "scalajs-dom" % "$scalajs_dom_version$"
+      "org.scala-js"  %%% "scalajs-dom"    % "$scalajs_dom_version$",
+      "org.scalatest" %%% "scalatest"      % "3.0.4"                  % "test"
     ),
     scalaJSUseMainModuleInitializer := true
   )
