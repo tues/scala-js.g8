@@ -42,6 +42,12 @@ To use the fully optimized JavaScript you should open `target/scala-2.11/classes
 
 Please consult [Scala.js documentation][scalajs-tutorial] for details.
 
+Contributing
+------------
+All contributions are welcome. Please try to provide meaningful commit descriptions and make your commits atomic if possible.
+
+Feel free to edit the copyright information in this file if you want to be included as one of the authors. By submitting a pull request you acknowledge that you are the author of the patch and you agree to redistribute the modified code under the same license as used by this project.
+
 Template license
 ----------------
 Written in 2017 by Paweł Bartkiewicz
