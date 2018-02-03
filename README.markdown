@@ -38,7 +38,7 @@ Building with full optimization for production can be done with:
 sbt fullOptJS
 ```
 
-To use the fully optimized JavaScript you should open `target/scala-2.11/classes/index.html` (which is simply copied from your `src/main/resources/`).
+To use the fully optimized JavaScript you should open `target/scala-2.12/classes/index.html` (which is simply copied from your `src/main/resources/`).
 
 Please consult [Scala.js documentation][scalajs-tutorial] for details.
 
