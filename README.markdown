@@ -1,6 +1,6 @@
 A [Giter8][g8] template for Scala.js projects, created by following the [official Scala.js documentation][scalajs-tutorial] with some tiny improvements.
 
-The project is using only a single dependency (other than Scala.js): scala-js-dom. You can easily remove it if you want.
+The project is using only two dependencies (other than Scala.js): scala-js-dom and scalatest. You can easily remove them if you want.
 
 Usage
 -----
