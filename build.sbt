@@ -4,7 +4,7 @@
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      scalaVersion := "2.12.4"
+      scalaVersion := "2.12.6"
     )),
     name := "scala-js.g8",
     test in Test := {
